@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-noticia-principal',
@@ -6,6 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./noticia-principal.component.css']
 })
 export class NoticiaPrincipalComponent implements OnInit {
+  @Input()
+  idNoticia:number=0
+  @Input()
+  tagNoticia:string=''
+  @Input()
+  tituloNoticia:string=''
+  @Input()
+  imagemNoticia:string=''
+  @Input()
+  autorNoticia:string=''
+  @Input()
+  paragrafoNoticia:string=''
+
 
   constructor() { }
 

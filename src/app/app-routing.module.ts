@@ -6,7 +6,10 @@ import { ReadingListComponent } from './pages/reading-list/reading-list.componen
 const routes: Routes = [
   {path:'',
   component: PaginaInicialComponent
-},
+  },
+  {path:'read/:id',
+    component: PaginaInicialComponent
+  },
   {
     path:'reading-list',
     component: ReadingListComponent
