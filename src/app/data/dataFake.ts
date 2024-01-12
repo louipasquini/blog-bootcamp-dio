@@ -1,5 +1,5 @@
 type Noticia = {
-    id:number
+    id:string
     tag:string
     imagem:string
     titulo:string
@@ -9,9 +9,9 @@ type Noticia = {
 
 export const dataFake:Noticia[] = [
     {
-        "id":1,
+        "id":'1',
         "tag": 'Literatura',
-        "imagem": "https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg",
+        "imagem": "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "titulo": "O título da sua notícia estará escrito aqui",
         "autor": "Nome do Autor",
         "paragrafo": `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit ipsum et felis blandit, in mollis eros pulvinar. In interdum justo porttitor justo congue, eget aliquam tellus semper. Donec volutpat erat eget imperdiet posuere. Sed ac eros pulvinar, interdum lorem quis, feugiat nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean at egestas metus. Aenean mattis in tortor sed pulvinar. Maecenas ultricies mattis justo, vitae commodo est pharetra id. Nullam mattis fringilla ante non dapibus. Vivamus nisl elit, aliquet in tincidunt ut, tincidunt ut magna.
@@ -25,7 +25,7 @@ export const dataFake:Noticia[] = [
         Etiam bibendum arcu viverra ipsum faucibus ultrices. Aliquam justo magna, semper vitae enim in, scelerisque varius erat. Nulla nisi nisl, volutpat non mauris finibus, cursus convallis justo. Aliquam a pulvinar neque. Aenean tincidunt leo turpis, at viverra enim tincidunt ac. Pellentesque vel egestas odio, non eleifend est. Donec tristique libero lorem, quis mattis neque accumsan sed. Nullam egestas urna non neque interdum lacinia. Praesent semper elit id nulla hendrerit suscipit vitae vel arcu. Morbi laoreet vulputate facilisis. Cras volutpat dignissim ante vel sagittis. Cras pellentesque suscipit quam sit amet ullamcorper. Proin lobortis in erat ut volutpat.`
     },
     {
-        "id":2,
+        "id":'2',
         "tag": 'Literatura',
         "imagem": "https://images.unsplash.com/photo-1531988042231-d39a9cc12a9a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "titulo": "Esse é o título da próxima notícia do site.",
@@ -39,7 +39,7 @@ export const dataFake:Noticia[] = [
         Etiam bibendum arcu viverra ipsum faucibus ultrices. Aliquam justo magna, semper vitae enim in, scelerisque varius erat. Nulla nisi nisl, volutpat non mauris finibus, cursus convallis justo. Aliquam a pulvinar neque. Aenean tincidunt leo turpis, at viverra enim tincidunt ac. Pellentesque vel egestas odio, non eleifend est. Donec tristique libero lorem, quis mattis neque accumsan sed. Nullam egestas urna non neque interdum lacinia. Praesent semper elit id nulla hendrerit suscipit vitae vel arcu. Morbi laoreet vulputate facilisis. Cras volutpat dignissim ante vel sagittis. Cras pellentesque suscipit quam sit amet ullamcorper. Proin lobortis in erat ut volutpat.`
     },
     {
-        "id":3,
+        "id":'3',
         "tag": 'Família',
         "imagem": "https://plus.unsplash.com/premium_photo-1664373232938-b14f67fb39ef?q=80&w=1950&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "titulo": "Um título novo, dessa vez para ver na lista.",
@@ -50,7 +50,7 @@ export const dataFake:Noticia[] = [
         
         Etiam bibendum arcu viverra ipsum faucibus ultrices. Aliquam justo magna, semper vitae enim in, scelerisque varius erat. Nulla nisi nisl, volutpat non mauris finibus, cursus convallis justo. Aliquam a pulvinar neque. Aenean tincidunt leo turpis, at viverra enim tincidunt ac. Pellentesque vel egestas odio, non eleifend est. Donec tristique libero lorem, quis mattis neque accumsan sed. Nullam egestas urna non neque interdum lacinia. Praesent semper elit id nulla hendrerit suscipit vitae vel arcu. Morbi laoreet vulputate facilisis. Cras volutpat dignissim ante vel sagittis. Cras pellentesque suscipit quam sit amet ullamcorper. Proin lobortis in erat ut volutpat.`
     },{
-        "id":4,
+        "id":'4',
         "tag": 'Cozinha',
         "imagem": "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "titulo": "As melhores receitas para ter um título.",

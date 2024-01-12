@@ -1,0 +1,29 @@
+.lista-container {
+    width: 150svh;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    transition: all ease-in .2s;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: .5rem;
+    font-family: 'Cormorant Garamond', serif;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+.imagem-lista {
+    width: 20rem;
+    height: 100%;
+    overflow: hidden;
+}
+
+.imagem-lista img {
+    max-width: 20rem;
+}
+
+.lista-container:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}

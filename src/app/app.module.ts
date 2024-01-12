@@ -17,6 +17,7 @@ import { BlocoSequenciaComponent } from './components/conteudo-geral/conteudo-bl
 import { MaisNoticiaComponent } from './components/conteudo-geral/conteudo-blog/sequencia-noticia/mais-noticia/mais-noticia.component';
 import { ReadingListComponent } from './pages/reading-list/reading-list.component';
 import { ConteudoListaComponent } from './components/conteudo-geral/conteudo-lista/conteudo-lista.component';
+import { ItensListaComponent } from './components/conteudo-geral/conteudo-lista/itens-lista/itens-lista.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ConteudoListaComponent } from './components/conteudo-geral/conteudo-lis
     BlocoSequenciaComponent,
     MaisNoticiaComponent,
     ReadingListComponent,
-    ConteudoListaComponent
+    ConteudoListaComponent,
+    ItensListaComponent
   ],
   imports: [
     BrowserModule,

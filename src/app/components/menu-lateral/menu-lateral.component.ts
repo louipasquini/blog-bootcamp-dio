@@ -9,6 +9,10 @@ export class MenuLateralComponent implements OnInit {
 
   constructor() { }
 
+  reload(){
+    window.location.reload()
+  }
+
   ngOnInit(): void {
   }
 

@@ -1,4 +1,4 @@
-<app-botao-voltar></app-botao-voltar>
+<app-botao-voltar [routerLink]="['../../reading-list']"></app-botao-voltar>
 <div class="noticia-home">
     <div class="noticia">
         <h1>
@@ -6,7 +6,7 @@
         </h1>
         <div class="autor">
             <div class="quadro-img">
-                <img src="{{ imagemNoticia }}">
+                <img src="https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg">
             </div>
             <h3>{{ autorNoticia }}</h3>
         </div>
@@ -14,7 +14,7 @@
     </div>
 </div>
 <div class="homepage">
-    <app-imagens-noticia></app-imagens-noticia>
+    <app-imagens-noticia [imagemNoticia]="imagemNoticia"></app-imagens-noticia>
     <app-sequencia-noticia></app-sequencia-noticia>
     <div class="botoes-interativos">
         <app-botao-interativo Enable="bi bi-star-fill" Disable="bi bi-star" textoBotaoInterativo="Favorite"></app-botao-interativo>

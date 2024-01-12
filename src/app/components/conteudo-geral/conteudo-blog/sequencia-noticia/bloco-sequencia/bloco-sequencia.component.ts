@@ -6,8 +6,10 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./bloco-sequencia.component.css']
 })
 export class BlocoSequenciaComponent implements OnInit {
-  @Input() imagemNoticias:string=''
-  @Input() textoNoticia:string=''
+  @Input() idNoticia:string=''
+  @Input() imagemNoticia:string=''
+  @Input() tagNoticia:string=''
+  
 
   constructor() { }
 

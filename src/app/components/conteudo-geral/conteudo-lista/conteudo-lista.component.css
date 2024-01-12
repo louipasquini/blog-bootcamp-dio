@@ -1,9 +1,9 @@
-.conteudo-blog {
+.conteudo-lista {
     height: 100svh;
     width: 85%;
     background-color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     right: 0;
     position: absolute;
     z-index: 2;
@@ -11,3 +11,4 @@
     padding: 3rem 6rem;
     overflow: hidden;
 }
+

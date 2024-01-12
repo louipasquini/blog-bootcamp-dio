@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { dataFake } from 'src/app/data/dataFake';
 
 @Component({
   selector: 'app-conteudo-lista',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./conteudo-lista.component.css']
 })
 export class ConteudoListaComponent implements OnInit {
+  dataFake = dataFake
 
   constructor() { }
 

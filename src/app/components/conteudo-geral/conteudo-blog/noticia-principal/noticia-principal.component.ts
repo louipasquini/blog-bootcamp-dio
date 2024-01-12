@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class NoticiaPrincipalComponent implements OnInit {
   @Input()
-  idNoticia:number=0
+  idNoticia:string=''
   @Input()
   tagNoticia:string=''
   @Input()
