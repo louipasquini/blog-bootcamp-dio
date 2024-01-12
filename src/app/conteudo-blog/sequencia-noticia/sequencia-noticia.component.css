@@ -1,0 +1,46 @@
+.proxima-noticia {
+    width: 38rem;
+    height: 10rem;
+    background-color: black;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: transparent;
+    transition: all ease-in .4s;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.proxima-noticia img {
+    max-width: 38rem;
+    opacity: 1;
+    transition: all ease-in-out .4s;
+}
+
+.proxima-noticia h1 {
+    position: absolute;
+    padding: 8rem 20rem 8rem 8rem;
+    left: 0;
+    z-index: 4;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.proxima-noticia:hover {
+    color: white;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, .25);
+}
+
+.proxima-noticia:hover img {
+    opacity: .5;
+}
+
+.sequencia {
+    width: 38rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

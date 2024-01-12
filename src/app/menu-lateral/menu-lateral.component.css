@@ -1,0 +1,21 @@
+.menu {
+    padding: 1.5rem;
+    background-color: rgba(19, 19, 19, 0.7);
+    height: 100%;
+    width: 100svw;
+    position: fixed;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    top: 0;
+}
+
+.middle-menu {
+    justify-self: center;
+    margin-top: auto;
+}
+
+.bottom-menu {
+    justify-self: flex-end;
+    margin-top: auto;
+}

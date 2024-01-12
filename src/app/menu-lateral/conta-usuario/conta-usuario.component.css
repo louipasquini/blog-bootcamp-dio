@@ -1,0 +1,44 @@
+.conta-usuario {
+    width: 15rem;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.esq-usuario {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.quadro-img {
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadro-img img {
+    width: 120%;
+    bottom: 0;
+}
+
+.dir-usuario {
+    width: 70%;
+}
+
+.dir-usuario h3 {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+}
+
+.dir-usuario h4 {
+    color: rgb(177, 177, 177);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
+}

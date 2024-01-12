@@ -1,0 +1,45 @@
+button {
+    padding: 1.5rem 0;
+    width: 15rem;
+    height: fit-content;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: larger;
+    color: white;
+    border-radius: 5rem;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.icone {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    width: 70%;
+    display: flex;
+    justify-content: left;
+}
+
+.texto h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 100;
+}
+
+i {
+    transition: all ease-in-out 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+
+button:hover i {
+    font-size: 120%;
+}

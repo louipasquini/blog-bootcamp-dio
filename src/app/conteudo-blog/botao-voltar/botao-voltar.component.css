@@ -1,0 +1,18 @@
+.botao-voltar {
+    padding: .8rem 1.2rem;
+    outline: solid 1px grey;
+    background: none;
+    border-radius: 6rem;
+    border: none;
+    cursor: pointer;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 200;
+    font-size: large;
+    color: grey;
+    transition: all ease-in-out .2s;
+}
+
+.botao-voltar:hover {
+    color: white;
+    background-color: grey;
+}

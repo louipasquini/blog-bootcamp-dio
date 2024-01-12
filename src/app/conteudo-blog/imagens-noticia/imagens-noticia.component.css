@@ -1,0 +1,12 @@
+.imagem-principal {
+    width: 38rem;
+    height: 20rem;
+    background-color: black;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 0 0 2rem 0;
+}
+
+.imagem-principal img {
+    max-width: 38rem;
+}
